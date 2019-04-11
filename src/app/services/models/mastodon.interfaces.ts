@@ -11,7 +11,12 @@ export interface TokenData {
     access_token: string;
     token_type: string;
     scope: string;
-    created_at: string;
+    created_at: number;
+
+    //TODO: Pleroma support this
+    me: string;
+    expires_in: number;
+    refresh_token: string;
 }
 
 export interface Account {
@@ -152,7 +157,7 @@ export interface Status {
     favourited: boolean;
     sensitive: boolean;
     spoiler_text: string;
-    visibility: string;
+    visibility: 'public' | 'unlisted' | 'private' | 'direct';
     media_attachments: Attachment[];
     mentions: Mention[];
     tags: Tag[];
