@@ -1,9 +1,9 @@
 {
-    "name": "sengi",
-    "version": "0.28.0",
+    "name": "sengi-sama",
+    "version": "0.28.0-sama",
     "license": "AGPL-3.0-or-later",
     "main": "main-electron.js",
-    "description": "A multi-account desktop client for Mastodon and Pleroma",
+    "description": "A multi-account desktop client for Mastodon and Pleroma. This is a customized version with Vazir font.",
     "author": {
         "name": "Nicolas Constant", 
         "email": "github@nicolas-constant.com"
