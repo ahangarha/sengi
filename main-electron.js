@@ -22,7 +22,8 @@ function createWindow() {
     win.setAutoHideMenuBar(true);
     win.setMenuBarVisibility(false);
    
-    const sengiUrl = "https://sengi.nicolas-constant.com";
+    //const sengiUrl = "https://sengi.nicolas-constant.com";
+    const sengiUrl = "https://ahangarha.gitlab.io/sengi-sama"
     win.loadURL(sengiUrl);
 
     const template = [
