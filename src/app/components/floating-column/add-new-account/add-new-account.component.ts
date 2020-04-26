@@ -147,7 +147,8 @@ export class AddNewAccountComponent implements OnInit {
         if(href.includes('/home')){
             return href.split('/home')[0];
         } else {
-            return location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '');
+	//return location.protocol + '//' + location.hostname + (location.port ? ':' + location.port : '');
+	  return window.location.href + (location.port ? ':' + location.port : '');
         }
     }
 
