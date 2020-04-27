@@ -26,7 +26,7 @@
         "electron-debug": "ng build && electron .",
         "dist": "npm run build && electron-builder --publish onTagOrDraft",
         "travis": "electron-builder --publish onTagOrDraft",
-	"gitlab": "ng build --prod --outputPath=public"
+        "gitlab": "ng build --prod --outputPath=public"
     },
     "private": true,
     "dependencies": {
