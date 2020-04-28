@@ -23,7 +23,7 @@ function createWindow() {
     win.setMenuBarVisibility(false);
    
     //const sengiUrl = "https://sengi.nicolas-constant.com";
-    const sengiUrl = "https://ahangarha.gitlab.io/sengi-sama"
+    const sengiUrl = "https:/sengi-sama.azad-on.com/"
     win.loadURL(sengiUrl);
 
     const template = [
